@@ -19,6 +19,7 @@ sudo cp /home/ec2-user/TwitterWallConfig/adminConfig.json /home/ec2-user/Twitter
 sudo cp /home/ec2-user/TwitterWallConfig/eventConfig.json /home/ec2-user/TwitterWallApp/server/config/eventConfig.json
 
 echo "Creating log folder..."
+sudo rm -r /home/ec2-user/TwitterWallApp/logs
 sudo mkdir /home/ec2-user/TwitterWallApp/logs
 
 echo "Install complete."
