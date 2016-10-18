@@ -8,6 +8,8 @@ echo "Installing nodejs to yum..."
 curl --silent --location https://rpm.nodesource.com/setup_4.x | bash -
 sudo yum -y install nodejs
 
+cd /home/ec2-user/TwitterWallApp
+
 echo "Installing packages..."
 sudo npm install
 
