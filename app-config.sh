@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 sudo yum -y update
 
 echo "Installing nodejs to yum..."
